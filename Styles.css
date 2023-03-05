@@ -1,0 +1,83 @@
+body {
+	width:  960px;
+}
+
+footer, body div {
+	padding: 5px;
+	margin: 6px;
+	border: 2px black solid;
+	background-color: #eee;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 12px;
+	font-color: black;
+	
+}
+.bar * {
+	display: inline;
+	margin: 25px;
+}
+.bar {
+	height: 100px;
+}
+.main {
+	display: flex;
+}
+.big {
+	width:  620px;
+	height: 500px;
+}
+
+.little {
+	flex:  1;
+	height: 500px;
+}
+
+.button {
+	border-radius: 10px;
+	height: 50px;
+	width: 200px;
+	display: inline-flex;
+	float:  right;
+	border: solid darkgrey 1px;
+	background-color: darkgrey;
+}
+
+
+.button a {
+	display: block;
+	color: white;
+	text-decoration: none;
+ 	width: 100px;
+  	margin:  auto;
+}
+
+.button:hover {
+color: black;
+background-color: white;
+}
+
+.coming-soon {
+	width: 200px;
+	position: absolute;
+	right: 400px;
+	bottom: 250px;
+	height: 200px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.image-box {
+	height:  250px;
+	display: flex;
+}
+
+.image-box img {
+	margin-bottom:  auto;
+}
+
+
+footer {
+	height: 200px;
+	overflow-y:auto
+}
